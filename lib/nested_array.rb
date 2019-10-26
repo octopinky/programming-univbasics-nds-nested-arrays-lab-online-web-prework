@@ -29,6 +29,5 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # Update the matrix location at row and column to have the value of new_value
-  # Return the updated matrix
+  local_copy_of_matrix = assembled_matrix.dup
 end
