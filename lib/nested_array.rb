@@ -25,11 +25,11 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup(assembled_matrix, 1, 1"Lyle"
+  matrix_lookup(assembled_matrix, 1, 1="Lyle"
 end
 
 def matrix_update(matrix, row, column, new_value)
   local_copy_of_matrix = assembled_matrix.dup
   result = matrix_update(local_copy_of_matrix, 0, 2, "Tiny Ewell")
-  result[0]=
+  result[0]=["Don Gately", "Joelle van Dyne", "Tiny Ewell", "Kate Gompert", "Bruce Green"]
 end
